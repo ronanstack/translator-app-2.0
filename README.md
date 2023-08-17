@@ -1,4 +1,5 @@
-# TranslatorApp20
+# Translator-App-2.0
+A web application integrating the free version of the DeepL API for text translation between several languages. An authentication key for DeepL must be inserted into environments for the translator to function. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
