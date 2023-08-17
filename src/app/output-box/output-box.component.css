@@ -1,0 +1,15 @@
+.output-box {
+    border: 1px solid;
+    border-color: black;
+    border-radius: 4px;
+    width: 500px;
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.output {
+    text-align: left;
+    font-family: arial;
+    font-size: 20px;
+    color: lightgrey;
+}

@@ -1,1 +1,14 @@
-<p>source-dropdown works!</p>
+<!-- Dropdown button for source languages -->
+<div class="source-langs">
+    <button class="source-dropbtn" id="source-dropbtn" (click)="onClickSource()">English</button>
+    <div class="source-dropdown" id="source-dropdown">
+        <ul>
+            <li><button id="EN" (click)="onClickLang('English')">English</button></li>
+            <li><button id="JA" (click)="onClickLang('Japanese')">Japanese</button></li>
+            <li><button id="ES" (click)="onClickLang('Spanish')">Spanish</button></li>
+            <li><button id="FR" (click)="onClickLang('French')">French</button></li>
+            <li><button id="ZH" (click)="onClickLang('Chinese')">Chinese</button></li>
+            <li><button id="KO" (click)="onClickLang('Korean')">Korean</button></li>
+        </ul>
+    </div>
+</div>

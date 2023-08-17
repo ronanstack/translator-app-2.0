@@ -1,1 +1,14 @@
-<p>target-dropdown works!</p>
+<!-- Dropdown button for target languages -->
+<div class="target-langs">
+    <button class="target-dropbtn" id="target-dropbtn" (click)="onClickTarget()">Japanese</button>
+    <div class="target-dropdown" id="target-dropdown">
+        <ul>
+            <li><button id="EN" (click)="onClickLang('English')">English</button></li>
+            <li><button id="JA" (click)="onClickLang('Japanese')">Japanese</button></li>
+            <li><button id="ES" (click)="onClickLang('Spanish')">Spanish</button></li>
+            <li><button id="FR" (click)="onClickLang('French')">French</button></li>
+            <li><button id="ZH" (click)="onClickLang('Chinese')">Chinese</button></li>
+            <li><button id="KO" (click)="onClickLang('Korean')">Korean</button></li>
+        </ul>
+    </div>
+</div>
