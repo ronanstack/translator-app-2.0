@@ -3,15 +3,17 @@ h3 {
     font-size: 24px;
     text-align: left;
     background-color: white;
-    color: black;
+    color: blue;
     width: 100%;
-    height: 60px;
+    height: 40px;
     margin: 0;
     padding-top: 10px;
+    border-bottom: 1px solid blue;
 }
 
 .dropdowns {
     display: flex;
+    padding-top: 20px;
 }
 
 .translate-boxes {
@@ -19,6 +21,6 @@ h3 {
 }
 
 .space {
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 225px;
+    margin-right: 225px;
 }
