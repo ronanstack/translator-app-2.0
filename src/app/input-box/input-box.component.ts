@@ -13,18 +13,19 @@ export class InputBoxComponent {
 
   translation?: TranslateData;
   
+  // Send text to API
   translate(text: string) {
-    // Send text to API
-    var sourceDropdown = document.getElementById('source-dropdown')!.children[0];
+    var sourceList = document.getElementById('source-dropdown')!.children[0]; // List of source buttons
     var sourcebtn = document.getElementById('source-dropbtn')!;
-    var targetList = document.getElementById('target-dropdown')!.children[0];
+    var targetList = document.getElementById('target-dropdown')!.children[0]; // List of target buttons
     var targetbtn = document.getElementById('target-dropbtn')!;
     var source = '';
     var target = '';
 
-    for (var i = 0; i < sourceDropdown.children.length; i++) {
-      if (sourceDropdown.children[i].children[0].innerHTML === sourcebtn.innerText) {
-        source = sourceDropdown.children[i].children[0].id; // Source select text
+    // Get the language IDs for the API call
+    for (var i = 0; i < sourceList.children.length; i++) {
+      if (sourceList.children[i].children[0].innerHTML === sourcebtn.innerText) {
+        source = sourceList.children[i].children[0].id; // Source select text
       }
     }
     for (var j = 0; j < targetList.children.length; j++) {
